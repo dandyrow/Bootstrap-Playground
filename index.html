@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Daniel Lowry">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="CSS/styles.css">
+
+        <title>Daniel Lowry</title>
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        
+        <header>
+            
+            <!--Navbar-->
+            <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Neural Networks</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link active" href="#essay">Essay<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#references">References</a>
+                        <a class="nav-item nav-link" href="#about">About Me</a>
+                    </div>
+                    <form class="form-inline ml-auto">
+                        <a class="btn btn-primary ml-auto" href="https://www.strath.ac.uk/" target="_blank" role="button">Strathclyde's Website</a>
+                    </form>
+                </div>
+            </nav>
+            
+            <!--Jumbotron-->
+            <div class="jumbotron">
+                <h1 class="display-4">Neural Networks</h1>
+                <p class="lead">Artificial Neural Networks (ANNs) are the most important development in computer science.</p>
+            </div>
+            <div class="page-scroll"></div>
+            
+
+        </header>
+
+        <main class="container" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+            <!--Essay-->
+            <div id="essay">
+                <h1>Essay</h1>
+                <br>
+                <p>
+                    An Artificial Neural Network (ANN) is defined as “...a computing system made up of a number of simple, highly interconnected 
+                    processing elements, which process information by their dynamic state response to external inputs.” <i>(Caudill, 1989)<sup><a href=#references>[1]</a></sup></i>. 
+                    They are modelled on the biological neural pathways which make up the mammalian brain <i>(Gerven & Bohte 2017)<sup><a href=#references>[2]</a></sup></i>. 
+                    They learn by example, just like humans, without having task specific instructions inputted to them <i>(Deep AI, Inc., 2017)<sup><a href=#references>[3]</a></sup></i>. 
+                    As an example, in image recognition a neural network may learn by being fed images that are defined as being “car” and “no car” 
+                    and learn to identify if other images contain cars. They vary in the way they emulate the brain from emulating a single neurone to 
+                    the complex multi neurone structure of the brain which gives it such plasticity <i>(Forrest, 2015)<sup><a href=#references>[4]</a></sup></i>. ANNs can extract meaning from 
+                    data that is imprecise and complicated and notice trends and patterns which are too complex for humans or conventional computers to 
+                    recognise and can learn and model non-linear relationships between input data and output data <i>(Stergiou & Siganos, 2013)<sup><a href=#references>[5]</a></sup></i>. 
+                    This makes it extremely important for computer science as it improves the problem-solving capability of computer systems and 
+                    enables solutions to complex problems to be relatively easily obtained when compared with traditional methods of computing.
+                </p>
+                <p>
+                    In the late 1940s, D.O Hebb created a learning algorithm that became known as Hebbian Learning. This is unsupervised learning, 
+                    which later evolved into neural networks. <i>(Hebb, 1949)<sup><a href=#references>[6]</a></sup></i> The first functional multi layered networks were published by Ivakhnenko 
+                    and Lapa in 1965 <i>(Ivakhnenko 1973)<sup><a href=#references>[7]</a></sup></i>. Research into neural networks slowed after machine learning research by Minsky and Papert in 
+                    1969 discovered two issues with the computers that processed ANNs at the time. The first being the computers inability to process the 
+                    exclusive-or circuit and the second, the lack of processing power, which meant the computers couldn’t effectively process large ANNs 
+                    <i>(Minsky & Papert, 1969)<sup><a href=#references>[8]</a></sup></i>. Research didn’t pick up pace again until computers had reached far greater levels of processing power.
+                    A key trigger for the renewed interest in ANN research was Werbos’s backpropagation algorithm which solved the exclusive-or problem 
+                    <i>(Werbos, 1975)<sup><a href=#references>[9]</a></sup></i>. Today, with the advancements in computer processing power using graphics processing units and distributed computing, 
+                    companies such as Google and Microsoft have deployed neural networks to use for image and visual recognition problems.
+                </p>
+                <p>
+                    The importance of neural networks has been emphasised recently by the release of recent GPUs that have an emphasis on compute task rather 
+                    than strictly graphical operations. The recent Nvidia GeForce Titan V was released as a “Supercomputing” AI card with specific deep learning 
+                    processing cores <i>(Nvidia 2017)<sup><a href=#references>[10]</a></sup></i>. The fact that leading graphics card manufacturers are releasing cards specifically for use in artificial 
+                    intelligence applications rather than their traditional approach of focusing on gaming, shows that the major hardware players are realising, 
+                    and hoping to cash in on, the importance of AI in the computer science space. 
+                </p>
+                <p>
+                    Neural networks have found many applications in many fields, due to their ability to take non-linear data and produce observations which are 
+                    more precise than humans themselves can produce, creating more jobs for computer scientists and researchers to develop and implement these systems. 
+                    These areas vary from the diagnosis of cancers, telling dangerous cancer cells apart from regular body cells just from the shape 
+                    <i>(Alizadeh & Lyons, 2016)<sup><a href="#references">[11]</a></sup></i>, and the increase of speed and reliability of infrastructure affected by natural disasters <i>(Nabian, Meidani, 2017)</i> 
+                    to enabling computers to recognise the human voice, with projects such as deep wave from Google, and being able to beat world class players at 
+                    games such as the Chinese game Go.
+                </p>
+            </div>
+
+            <!--References-->
+            <div id="references">
+                <h1>References</h1>
+                <br>
+                <p id="1">
+                    <sup>[1]</sup><b>Caudill, M., (1987).</b> <i>‘Neural networks primer, part I’</i>. AI Expert, 2 (12), pp.46-52. Available at: <a href="https://dl.acm.org/citation.cfm?id=38295" target="_blank">https://dl.acm.org/citation.cfm?id=38295</a> 
+                </p>
+                <p id="2">
+                    <sup>[2]</sup><b>Deep AI, Inc. (2017).</b> <i>‘Build with AI’</i>. Deep AI. Available at: <a href="https://deepai.org/machine-learning-glossary-and-terms/neural-network" target="_blank">https://deepai.org/machine-learning-glossary-and-terms/neural-network</a> 
+                </p>        
+                <p id="3">       
+                    <sup>[3]</sup><b>Forrest, M. D., (2015).</b> <i>‘Simulation of alcohol action upon a detailed Purkinje neuron model and a simpler surrogate model that runs >400 times faster’</i>. BMC Neuroscience. Available at: <a href="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-015-0162-6" target="_blank">https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-015-0162-6</a>
+                </p> 
+                <p id="4">    
+                    <sup>[4]</sup><b>Stergiou, C., & Siganos, D. (2013).</b> <i>‘NEURAL NETWORKS – Imperial’</i>. SURPRISE 96 Journal. Available at: <a href="https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html" target="_blank">https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html</a>
+                </p> 
+                <p id="5">      
+                    <sup>[5]</sup><b>Hebb, D., (1949).</b> <i>‘The Organization of Behaviour : A Neuropsychological Theory’</i>. New York. Psychology Press. Available at: <a href="https://books.google.co.uk/books?id=ddB4AgAAQBAJ&redir_esc=y" target="_blank">https://books.google.co.uk/books?id=ddB4AgAAQBAJ&redir_esc=y</a>
+                </p>   
+                <p id="6">    
+                    <sup>[6]</sup><b>Ivakhnenko, A. G., (1973).</b> <i>‘Cybernetic Predicting Devices’</i>. CCM Information Corporation. Available at: <a href="https://books.google.co.uk/books?id=FhwVNQAACAAJ&redir_esc=y" target="_blank">https://books.google.co.uk/books?id=FhwVNQAACAAJ&redir_esc=y</a> 
+                </p>
+                <p id="7">       
+                    <sup>[7]</sup><b>Minsky, M. L., Paypert, S., (1972).</b> <i>‘Perceptrons: An Introduction to Computational Geometry’</i>. Massachusetts. MIT Press. Available at: <a href="https://books.google.co.uk/books?id=Ow1OAQAAIAAJ&redir_esc=y" target="_blank">https://books.google.co.uk/books?id=Ow1OAQAAIAAJ&redir_esc=y</a>
+                </p>
+                <p id="8">       
+                    <sup>[8]</sup><b>Werbos, P. J., (1975).</b> <i>‘Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences’</i>. Washington (state). Harvard University. Available at: <a href="https://books.google.co.uk/books?id=z81XmgEACAAJ&redir_esc=y" target="_blank">https://books.google.co.uk/books?id=z81XmgEACAAJ&redir_esc=y</a> 
+                </p>
+                <p id="9"> 
+                    <sup>[9]</sup><b>Nvidia, (2017).</b> Available at: <a href="https://www.nvidia.com/en-us/titan/titan-v/" target="_blank">https://www.nvidia.com/en-us/titan/titan-v/</a> 
+                </p>        
+                <p id="10">
+                    <sup>[10]</sup><b>Alizadeh, E., Lyons, S. M., Castle, J. M., Prasad, A., (2016).</b> <i>‘Measuring systematic changes in invasive cancer cell shape using Zernike moments’</i>. Integrative Biology. Available at: <a href="https://pubs.rsc.org/en/Content/ArticleLanding/2016/IB/C6IB00100A#!divAbstract" target="_blank">https://pubs.rsc.org/en/Content/ArticleLanding/2016/IB/C6IB00100A#!divAbstract</a>
+                </p>
+                <p id="11">     
+                    <sup>[11]</sup><b>Nabian, M. A., Meidani, H., (2018).</b> <i>‘Deep Learning for Accelerated Seismic Reliability Analysis of Transportation Networks’</i>. Computer‐Aided Civil and Infrastructure Engineering. Available at: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/mice.12359" target="_blank">https://onlinelibrary.wiley.com/doi/abs/10.1111/mice.12359</a>
+                </p>
+            </div>
+
+            <!--About-->
+            <div id="about">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Img/me.jpg" alt="A picture of me">
+                    <div class="card-body">
+                      <h5 class="card-title">About Me</h5>
+                      <p class="card-text">My name is Daniel Lowry and I have created this website as a test for the front-end framework Bootstrap and its various components. I have published the code for this website on my GitHub accessible via the button below.</p>
+                      <a href="https://github.com/dandyrow/Bootstrap-Playground" class="btn btn-outline-dark">GitHub Repository</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </main>
+
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
+        <!--Bootstrap.js (including Popper.js)-->
+        <script src="JS/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
